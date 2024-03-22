@@ -1,0 +1,278 @@
+//HTML code...........
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Health Monitoring System</h1>
+    </header>
+    <main>
+        <section id="intro-section">
+            <h2>Introduction</h2>
+            <p>The Health Monitoring System is designed to revolutionize health management on campus by addressing the challenges faced by traditional health monitoring methods:</p>
+            <ul>
+                <li>Manual record-keeping: The system automates data collection and management, reducing the need for manual record-keeping.</li>
+                <li>Limited accessibility to medical resources: By integrating with electronic health records (EHR) systems and offering telemedicine capabilities, the system improves access to medical resources.</li>
+                <li>Fragmented data management: The system provides seamless data sharing and analysis through integration with EHR systems, ensuring centralized and comprehensive data management.</li>
+                <li><strong>Key features of the system:</strong></li>
+                <ul>
+                    <li>Real-time health data collection through wearable devices or mobile apps.</li>
+                    <li>Integration with electronic health records (EHR) systems for seamless data sharing and analysis.</li>
+                    <li>Personalized health recommendations based on individual health profiles.</li>
+                    <li>Telemedicine capabilities for remote consultations and follow-ups.</li>
+                    <li>Automated alerts for critical health events.</li>
+                    <li>Privacy safeguards compliant with healthcare regulations.</li>
+                </ul>
+            </ul>
+            <img src=https://qph.cf2.quoracdn.net/main-qimg-1cb6d2ff5328dee590e887feab8f2dd2-lq>
+        </section>
+        <section id="data-section">
+            
+            <h1>Health Data Collection</h1>
+    <form action="submit_data.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" required><br><br>
+
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height" required><br><br>
+
+        <label for="blood_pressure">Blood Pressure:</label>
+        <input type="text" id="blood_pressure" name="blood_pressure"><br><br>
+
+        <label for="heart_rate">Heart Rate (bpm):</label>
+        <input type="number" id="heart_rate" name="heart_rate"><br><br>
+
+        <label for="symptoms">Symptoms:</label><br>
+        <textarea id="symptoms" name="symptoms"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        </section>
+        <section>
+            <h2>Facilities Offered</h2>
+            <ul>
+                <li>24/7 Ambulance</li>
+                <li>Specialized Clinics (Cardiology, Oncology, Pediatrics, etc.)</li>
+                <li>Diagnostic Imaging Center (X-Ray, MRI, CT Scan)</li>
+                <li>Surgical Suites</li>
+                <li>Intensive Care Units (ICU)</li>
+                <li>Pharmacy</li>
+                <li>Laboratory Services</li>
+                <li>Rehabilitation Center</li>
+                <li>Maternity Ward</li>
+                <li>Psychiatric Services</li>
+                <li>Health Education Programs</li>
+                <li>Health and Wellness Center</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Details of Medical Staff of UNI HEALTH CENTRE</h3>
+            <ul>
+              
+<li>Working hours of HEALTH CENTRE</li>
+<br>
+<li>(It is 24 hours open(24x7x365))</li>
+<br>
+<li>Morning shift</li>
+
+<li>6 AM to 2 PM</li>
+<br>
+<li>Evening shift</li>
+
+<li>2 PM to 10 PM</li>
+<br>
+<li>Night shift</li>
+
+<li>10 PM to 6 AM</li>
+<br>
+<li>Emergency medical Helpline </li>
+<br>
+<li>HEALTH CENTRE RECEPTION</li>
+
+<li>018244-44079</li>
+<br>
+<li>HEALTH CENTRE RECEPTION</li>
+
+<li>018245-01227</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-1</li>
+
+<li>018244-44071</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-2</li>
+
+<li>018244-44072</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-3</li>
+
+<li>018244-44073</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-4</li>
+
+<li>018244-44074</li>
+<br>
+<li>HEALTH CENTRE AO CABIN 5</li>
+
+<li>018244-44076</li></li>
+<br>
+<li>HEALTH CENTRE CABIN NO-6</li>
+
+<li>018244-95015</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-7</li>
+
+<li>018244-44077</li>
+<br>
+<li>HEALTH CENTRE CABIN NO-8</li>
+
+<li>018244-95016</li>
+<br>
+<li>HEALTH CENTRE MALE WARD</li>
+
+<li>018244-44066</li>
+<br>
+<li>HEALTH CENTRE FEMALE WARD</li>
+
+<li>018244-44067</li>
+<br>
+<li>MEDICAL STORE</li>
+
+<li>018244-44068</li>
+<br>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <p>&copy; 2024 Health Monitoring System</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+//CSS ....
+body {
+  background-image: https://qph.cf2.quoracdn.net/main-qimg-1af104a9b8a6d12e1c946786290e96fb-lq;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  font-family: Arial, sans-serif; 
+}
+
+
+header {
+  background-color: rgba(52, 152, 219, 0.8); 
+  color: #fff; 
+  padding: 20px;
+  text-align: center;
+}
+
+
+main {
+  padding: 20px;
+  background-color: white; 
+}
+
+
+#intro-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+#data-section {
+  background-color: rgba(241, 196, 15, 0.8); 
+  padding: 20px;
+}
+
+
+footer {
+  background-color: rgba(44, 62, 80, 0.8); 
+  color: #fff; 
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+a {
+  color: red; 
+}
+
+a:hover {
+  color: red; 
+}
+
+//JS.....
+document.addEventListener('DOMContentLoaded', function() {
+  const loginForm = document.getElementById('login-form');
+  const dataSection = document.getElementById('data-section');
+
+  loginForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const email = loginForm.querySelector('input[type="email"]').value;
+      const password = loginForm.querySelector('input[type="password"]').value;
+      
+     
+      const userData = authenticateUser(email, password); 
+      
+      if (userData) {
+          
+          displayUserData(userData);
+          dataSection.style.display = 'block';
+          loginSection.style.display = 'none';
+      } else {
+          alert('Invalid credentials. Please try again.');
+      }
+  });
+
+  function authenticateUser(email, password) {
+      
+      const sampleUserData = {
+          name: 'John Doe',
+          age: 20,
+          gender: 'Male',
+         
+      };
+      return sampleUserData;
+  }
+
+  function displayUserData(userData) {
+      
+      console.log(userData);
+  }
+});
+
+      
+      String name = request.getParameter("name");
+      int age = Integer.parseInt(request.getParameter("age"));
+      double weight = Double.parseDouble(request.getParameter("weight"));
+      double height = Double.parseDouble(request.getParameter("height"));
+      String bloodPressure = request.getParameter("blood_pressure");
+      int heartRate = Integer.parseInt(request.getParameter("heart_rate"));
+      String symptoms = request.getParameter("symptoms");
+
+     
+      System.out.println("Name: " + name);
+      System.out.println("Age: " + age);
+      System.out.println("Weight: " + weight);
+      System.out.println("Height: " + height);
+      System.out.println("Blood Pressure: " + bloodPressure);
+      System.out.println("Heart Rate: " + heartRate);
+      System.out.println("Symptoms: " + symptoms);
+
+     
+      response.sendRedirect("success.html"); 
+
+
